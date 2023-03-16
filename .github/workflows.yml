@@ -1,0 +1,15 @@
+name: Docker Compose Actions Workflow
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build the stack
+        run: docker-compose up -d
+      - name: Test
+        run: docker run -it --rm  -v "$(pwd)":/test-automation -v ~/.m2/repository:/root/.m2/repository  -w /test-automation maven:3.6.3-jdk-11 mvn test -DhubUrl=http://host.docker.internal:4444 -DbrowserName=chrome -DconfigPath=./env/stagging.properties

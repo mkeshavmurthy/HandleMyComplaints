@@ -1,0 +1,30 @@
+version: "3"
+services:
+
+  selenium-hub:
+    image: selenium/hub:4.0.0-alpha-6-20200730
+    container_name: selenium-hub
+    expose:
+      - "4444"
+
+  chrome:
+    image: selenium/node-chrome:4.0.0-alpha-6-20200730
+    volumes:
+      - /dev/shm:/dev/shm
+      - ./src/test/resources:/qa-automation/src/test/resources
+    expose:
+      - "5900"
+    depends_on:
+      - selenium-hub
+    environment:
+      - HUB_HOST=selenium-hub
+      - SCREEN_WIDTH=1280
+
+  maven:
+    image: maven:3.6.3-jdk-11
+    volumes:
+      - .:/test-automation
+      - ~/.m2/repository:/root/.m2/repository
+    working_dir: /test-automation
+    depends_on:
+      - selenium-hub

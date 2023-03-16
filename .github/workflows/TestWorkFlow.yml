@@ -1,0 +1,19 @@
+name: Docker Compose Actions Workflow
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: self-hosted 
+
+    steps:
+    - name: Super cleanup
+      run: |
+        sudo chown action -R /home/action/actions-runner/_work/test-automation
+    - uses: actions/checkout@v2 # Checkout the code
+    - name: Run Docker
+      run: |
+       chmod +x ./RunDocker.sh
+        ./RunDocker.sh

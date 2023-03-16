@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="559547" started-at="2021-01-22T16:19:37 IST" finished-at="2021-01-22T16:28:56 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="559547" started-at="2021-01-22T16:19:37 IST" finished-at="2021-01-22T16:28:56 IST">
+      <class name="TestCases.SC_08_VehicleComplaintLoggedIn">
+        <test-method status="PASS" signature="deleteUsers()[pri:0, instance:TestCases.SC_08_VehicleComplaintLoggedIn@1b68ddbd]" name="deleteUsers" is-config="true" duration-ms="21888" started-at="2021-01-22T16:19:15 IST" finished-at="2021-01-22T16:19:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUsers -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.SC_08_VehicleComplaintLoggedIn@1b68ddbd]" name="setUp" is-config="true" duration-ms="5011" started-at="2021-01-22T16:19:37 IST" finished-at="2021-01-22T16:19:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:TestCases.SC_08_VehicleComplaintLoggedIn@1b68ddbd]" name="openPage" is-config="true" duration-ms="2818" started-at="2021-01-22T16:19:42 IST" finished-at="2021-01-22T16:19:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="TC_VehivleComplaintNotResolved()[pri:1, instance:TestCases.SC_08_VehicleComplaintLoggedIn@1b68ddbd]" name="TC_VehivleComplaintNotResolved" duration-ms="113265" started-at="2021-01-22T16:19:45 IST" finished-at="2021-01-22T16:21:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_VehivleComplaintNotResolved -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.SC_08_VehicleComplaintLoggedIn@1b68ddbd]" name="tearDown" is-config="true" duration-ms="3940" started-at="2021-01-22T16:21:38 IST" finished-at="2021-01-22T16:21:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.SC_08_VehicleComplaintLoggedIn@1b68ddbd]" name="setUp" is-config="true" duration-ms="7013" started-at="2021-01-22T16:21:42 IST" finished-at="2021-01-22T16:21:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:TestCases.SC_08_VehicleComplaintLoggedIn@1b68ddbd]" name="openPage" is-config="true" duration-ms="1882" started-at="2021-01-22T16:21:49 IST" finished-at="2021-01-22T16:21:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="getEmail()[pri:2, instance:TestCases.SC_08_VehicleComplaintLoggedIn@1b68ddbd]" name="getEmail" duration-ms="373212" started-at="2021-01-22T16:21:51 IST" finished-at="2021-01-22T16:28:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.SC_08_VehicleComplaintLoggedIn@1b68ddbd]" name="tearDown" is-config="true" duration-ms="3062" started-at="2021-01-22T16:28:04 IST" finished-at="2021-01-22T16:28:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.SC_08_VehicleComplaintLoggedIn@1b68ddbd]" name="setUp" is-config="true" duration-ms="9036" started-at="2021-01-22T16:28:07 IST" finished-at="2021-01-22T16:28:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:TestCases.SC_08_VehicleComplaintLoggedIn@1b68ddbd]" name="openPage" is-config="true" duration-ms="1411" started-at="2021-01-22T16:28:16 IST" finished-at="2021-01-22T16:28:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="TC_02_VehicleComplaint()[pri:3, instance:TestCases.SC_08_VehicleComplaintLoggedIn@1b68ddbd]" name="TC_02_VehicleComplaint" duration-ms="37904" started-at="2021-01-22T16:28:18 IST" finished-at="2021-01-22T16:28:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_VehicleComplaint -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.SC_08_VehicleComplaintLoggedIn@1b68ddbd]" name="tearDown" is-config="true" duration-ms="791" started-at="2021-01-22T16:28:56 IST" finished-at="2021-01-22T16:28:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.SC_08_VehicleComplaintLoggedIn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

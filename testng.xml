@@ -1,0 +1,14 @@
+<suite name="Test Suite" verbose="1">
+	<test name="Automated Tests">
+		<classes>
+			<class name="TestCases.SC_01_EnergyComplaintTest" />
+			<class name="TestCases.SC_02_MobilePhoneComplaintTest" />
+			<class name="TestCases.SC_03_EnergyComplaint" />
+			<class name="TestCases.SC_04_CreditCardComplaintTest" />
+			<class name="TestCases.SC_05_VehicleComplaintTest" />
+			<class name="TestCases.SC_06_NBNInternetComplaintTest" />
+			<class name="TestCases.SC_07_OtherComplaintTest" />
+			<class name="TestCases.SC_08_VehicleComplaintLoggedIn" />
+		</classes>
+	</test>
+</suite>
